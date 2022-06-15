@@ -1,8 +1,4 @@
-#!/usr/bin/node
-/**
- * getResponseFromAPI - a function that returns a promise
- */
-
+/* a function that returns new promise */
 export default function getResponseFromAPI () {
 	return new Promise (() => {})
 }
