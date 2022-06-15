@@ -1,12 +1,14 @@
-#!/usr/bin/node
+/* check success status */
+export default function getFullResponseFromAPI(success) {
+	return new Promise((resolve, reject) => {
+		if (success === true) {
+			resolve({
+				status: 200,
+				body: 'Success'
+			});
+		} else {
+			reject('The fake API is not working currently')
+		}
+	});
+}
 
-export const getFullResponseFromAPI = ((success) => {
-	return new promise((true, false) => {
-		if (success) {
-			true({status: 200; body: 'Success'})
-		}
-		else {
-			false('The fake API is not working currently')
-		}
-	})
-})
