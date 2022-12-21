@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* test function */
 export default function divideFunction(numerator, denominator) {
 	if (denominator == 0) {
