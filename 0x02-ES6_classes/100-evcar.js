@@ -1,5 +1,5 @@
 /* eslint-disable */
-import Car from "./10-car";
+import Car from "./10-car.js";
 
 class EVCar extends Car {
     constructor(brand, motor, color, range) {
