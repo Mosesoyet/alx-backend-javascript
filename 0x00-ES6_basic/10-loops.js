@@ -1,8 +1,8 @@
+/* eslint-disable */
 export default function appendToEachArrayValue(array, appendString) {
-	for (let idx of array) {
-		let value = array[idx];
-		array[idx] = appendString + value;
+	const temp_array = [];
+	for (const val of array) {
+		temp_array.push(appendString + val)
 	}
-
-	return array;
+	return temp_array;
 }
