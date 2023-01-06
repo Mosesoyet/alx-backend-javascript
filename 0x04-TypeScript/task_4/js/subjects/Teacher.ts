@@ -1,6 +1,6 @@
-// Teacher Interface
-
-interface Student {
-    firstName: String;
-    lastName: String;
-}
+namespace Subjects {
+    export interface Teacher {
+      firstName: string;
+      lastName: string;
+    }
+  }
