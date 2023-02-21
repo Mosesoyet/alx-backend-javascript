@@ -1,4 +1,4 @@
-let http = require('http');
+const http = require('http');
 
 const host = 'localhost';
 const port = '1245';
