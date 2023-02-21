@@ -1,3 +1,4 @@
+/* eslint-disabled */
 /*
  * Display message on STDOUT.
  * @param {String} message The message to be displayed.
