@@ -1,6 +1,7 @@
 /*
  * Display message on STDOUT
- * @param {message} The message to be displayed
+ * @param {String} message The message to be displayed
+ * @author Moses Oyet <https://github.com/Mosesoyet>
  */
 
 const displayMessage = (message) => {
