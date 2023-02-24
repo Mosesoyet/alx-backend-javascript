@@ -3,8 +3,7 @@
  * @author Moses Oyet
  */
 const calculateNumber = require("./0-calcul.js");
-
-var assert = require('assert');
+const assert = require('assert');
 
 describe("calculateNumber", function () {
 
