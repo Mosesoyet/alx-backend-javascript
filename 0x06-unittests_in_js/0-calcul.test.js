@@ -14,4 +14,6 @@ describe("calculateNumber", function () {
 			assert.equal(4, calculateNumber(1,3));
 
 		});
+
+	});
 });
