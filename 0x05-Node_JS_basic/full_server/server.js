@@ -9,4 +9,4 @@ app.use('/', indexRouter);
 app.use('/students', indexRouter);
 app.use('/students/:major', indexRouter);
 
-export default app;
+module.exports = app;
