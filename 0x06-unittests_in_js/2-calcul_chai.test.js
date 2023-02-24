@@ -7,7 +7,7 @@ describe("calculateNumber", () => {
 
 		it("Should sum two numbers and round off float numbers", () => {
 			
-			expect.equal(calculateNumber('SUM',1.4,4.5),6,"Success");
+			expect(calculateNumber('SUM', 1.4, 4.5)).to.equal(6);
 
 		});
 
