@@ -12,4 +12,24 @@ describe("calculateNumber", () => {
 		});
 
 	});
+
+	describe("SUBTRACT", () => {
+
+		it("Should subtract two numbers", () => {
+
+			expect(calculateNumber('SUBTRACT', 1.4, 4.5)).to.equal(-4);
+
+		});
+	});
+
+	describe("DIVIDE", () => {
+
+		it("Should divide two numbers", () => {
+
+			expect(calculateNumber('DIVIDE', 1.4, 4.5)).to.equal(0.2);
+			expect(calculateNumber('DIVIDE', 1.4, 0)).to.equal("Error");
+
+		});
+
+	});
 });
